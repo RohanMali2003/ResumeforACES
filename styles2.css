@@ -1,0 +1,33 @@
+/* General styles for the whole site */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll */
+}
+
+/* Container for skill images */
+.skills-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Space between items */
+}
+
+/* Style for each skill image */
+.skill-image {
+    width: 150px;
+    /* Consistent width */
+    height: 150px;
+    /* Consistent height */
+    object-fit: cover;
+    /* Ensure images cover the box without distortion */
+    border-radius: 8px;
+    /* Optional: rounded corners */
+    margin-bottom: 20px;
+    /* Space below each image */
+}
